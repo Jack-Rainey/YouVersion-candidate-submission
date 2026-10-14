@@ -44,6 +44,6 @@ For caching the verse of the days and versions, a basic Python dictionary was us
 ### Testing
 The test file, unlike the real server, this page does not use the real YouVersion API as specified by project parameters. It tests using mocked data whether the URL specified resulted in a happy path, if the date specified by the URL was invalid, and if data recieved proper data from YouVersion.
 
-# What I Would Do Next
+## What I Would Do Next
 1. Add a cache test to `docs/test_server.py`.
 2. Make the cache persist even when the server shuts down to avoid unnecessary calls after restarts.
